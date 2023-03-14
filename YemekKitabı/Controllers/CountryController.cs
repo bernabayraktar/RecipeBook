@@ -20,10 +20,10 @@ namespace YemekKitabı.Controllers
         }
 
         [HttpPost]
-        public JsonResult AddCountry(Country country) {
-            Console.WriteLine(country);
-            //_appDb.Add(country);
-            //_appDb.SaveChanges();
+        public JsonResult AddCountry([FromBody]Country country) {
+            Console.WriteLine(country.Name);
+            _appDb.Add(country);
+            _appDb.SaveChanges();
             return null;
         }
 
