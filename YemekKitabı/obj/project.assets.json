@@ -8,20 +8,27 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Berna\\.nuget\\packages\\": {}
+    "C:\\Users\\B\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
+      "projectUniqueName": "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
       "projectName": "YemekKitabı",
-      "projectPath": "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
-      "packagesPath": "C:\\Users\\Berna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\obj\\",
+      "projectPath": "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
+      "packagesPath": "C:\\Users\\B\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Berna\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\B\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -51,7 +58,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -63,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
