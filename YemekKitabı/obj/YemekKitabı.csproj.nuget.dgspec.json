@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj": {}
+    "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj": {}
   },
   "projects": {
-    "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj": {
+    "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
+        "projectUniqueName": "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
         "projectName": "YemekKitabı",
-        "projectPath": "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
-        "packagesPath": "C:\\Users\\B\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\B\\Source\\Repos\\RecipeBook\\YemekKitabı\\obj\\",
+        "projectPath": "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\YemekKitabı.csproj",
+        "packagesPath": "C:\\Users\\Berna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Berna\\Desktop\\yemekkitabı\\RecipeBook\\YemekKitabı\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\B\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+          "C:\\Users\\Berna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -66,8 +61,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
