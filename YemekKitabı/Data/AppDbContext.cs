@@ -15,13 +15,14 @@ namespace YemekKitabı.Data
         public DbSet<Category> Categories { get; set; } 
 
 
-        protected void OnModelCreated(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Image>()
             .HasOne(c => c.Cook)
             .WithMany(b => b.Images)
-            .HasForeignKey(a => a.Cook.Id)
-            ;
+            .HasForeignKey(c => c.CookId);
+
+
 
         }
     }
